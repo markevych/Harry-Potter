@@ -1,22 +1,62 @@
 body {
-	background-image: url("bg.png");
+	background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);	
 	background-position: center;
-	background-size: cover;
 	text-align: center;
 	color: white;
+	margin: 0;
 }
 
 .face {
-	height: 40%;
+	height: 300px;
 	border-radius: 20px;
-	border: 7px solid white;
+	border: 7px solid rgba(0,0,0,0.5);
+	margin: 40px;
 }
 
 ul {
     padding: 10px;
     background: rgba(0,0,0,0.5);
- }
+	margin: 0;
+}
  li {
     display: inline;
     padding: 0px 10px 0px 10px;
+}
+
+.context {
+	background: rgba(0,0,0,0.5);
+	width: 600px;
+	float: left;
+	margin: 30px;
+}
+
+.context2 {
+	background: rgba(0,0,0,0.5);
+	width: 600px;
+	float: left;
+	margin: 30px;
+}
+
+.right {
+	height: 200px;
+	margin: 40px;
+}
+
+.left {
+	height: 200px;
+	margin: 40px;
+}
+
+p {
+	padding: 30px;
+	text-align: center;
+}
+ @media (max-width: 500px){
+h1 {
+	font-size: 36px; 
+}
+ 
+li {
+    display: block;
+    padding: 5px;
 }
