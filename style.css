@@ -33,6 +33,7 @@ body {
 }
 
 .context {	
+	border: 2px dashed rgba(0,0,0,0.5);
 	width: 600px;
 	float: left;
 	margin: 30px;
