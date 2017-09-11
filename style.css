@@ -13,12 +13,12 @@ body {
 	margin: 40px;
 }
 
-ul {
+.menu {
     padding: 10px;
     background: rgba(0,0,0,0.5);
 	margin: 0;
 }
- li {
+.item {
     display: inline;
     padding: 0px 10px 0px 10px;
 }
@@ -30,21 +30,13 @@ ul {
 	margin: 30px;
 }
 
-.context2 {
-	background: rgba(0,0,0,0.5);
-	width: 600px;
-	float: left;
-	margin: 30px;
-}
-
-.right {
+.photo {
 	height: 200px;
 	margin: 40px;
 }
 
-.left {
-	height: 200px;
-	margin: 40px;
+.video {
+	margin: 10px;
 }
 
 p {
