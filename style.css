@@ -1,30 +1,30 @@
 body {
-	background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);	
+	background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);	
 	background-position: center;
 	text-align: center;
-	color: white;
+	color: black;
 	margin: 0;
 }
 
 .face {
 	height: 300px;
 	border-radius: 20px;
-	border: 7px solid rgba(0,0,0,0.5);
-	margin: 40px;
+	border: 2px solid rgba(0,0,0,0.5);
+	margin: 50px;
 }
 
 .menu {
     padding: 10px;
     background: rgba(0,0,0,0.5);
 	margin: 0;
+	font-size: 20px;
 }
 .item {
     display: inline;
     padding: 0px 10px 0px 10px;
 }
 
-.context {
-	background: rgba(0,0,0,0.5);
+.context {	
 	width: 600px;
 	float: left;
 	margin: 30px;
@@ -39,10 +39,20 @@ body {
 	margin: 10px;
 }
 
+.plotim {
+	width: 500px;
+	margin: 45px;
+}
+
 p {
 	padding: 30px;
 	text-align: center;
 }
+
+h1 {
+	font-size: 40px; 
+}
+
  @media (max-width: 500px){
 h1 {
 	font-size: 36px; 
